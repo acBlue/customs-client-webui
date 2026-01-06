@@ -38,6 +38,7 @@ export interface Attachment {
   filename: string;
   file_path: string;
   mimetype?: string | null;
+
   size: number;
   storage: string;
   created_at: string; // datetime
